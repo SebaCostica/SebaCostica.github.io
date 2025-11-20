@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Sebastian Costica</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .projects {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #111;
+            padding: 25px;
+            border-radius: 14px;
+            border: 1px solid #222;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #4dabf7;
+        }
+
+        .card h3 {
+            color: #4dabf7;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h2 class="logo">Seba<span>Costica</span></h2>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+    </ul>
+</nav>
+
+<h1 style="text-align:center; margin-top:50px;">My Projects</h1>
+
+<div class="projects">
+
+    <div class="card">
+        <h3>Django Web App – Video & Photo Creator Platform</h3>
+        <p>Full authentication system for creator, customers and public users. Automated email system, token sharing, Vimeo integration, admin tools.</p>
+        <a href="https://github.com/SebaCostica/Video_Photo_creator_web_app" target="_blank">View Project</a>
+    </div>
+
+    <div class="card">
+        <h3>Machine Learning Model</h3>
+        <p>Predictive model built from scratch using supervised learning techniques.</p>
+        <a href="#" target="_blank">Add Link</a>
+    </div>
+
+    <div class="card">
+        <h3>Neural Network</h3>
+        <p>Fully connected neural network built in NumPy. Trained and evaluated on real data.</p>
+        <a href="#" target="_blank">Add Link</a>
+    </div>
+
+    <div class="card">
+        <h3>Mini Scripts Collection</h3>
+        <p>Useful Python utilities such as typing speed test, cleaners, converters, automation and more.</p>
+        <a href="#" target="_blank">Add Link</a>
+    </div>
+
+</div>
+
+</body>
+</html>
